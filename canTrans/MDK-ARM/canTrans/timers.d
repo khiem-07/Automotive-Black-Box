@@ -1,0 +1,15 @@
+cantrans\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+cantrans\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+cantrans\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+cantrans\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+cantrans\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+cantrans\timers.o: ../Core/Inc/FreeRTOSConfig.h
+cantrans\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+cantrans\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+cantrans\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+cantrans\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+cantrans\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+cantrans\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+cantrans\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+cantrans\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+cantrans\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h

@@ -1,0 +1,12 @@
+cantrans\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+cantrans\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+cantrans\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+cantrans\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+cantrans\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+cantrans\list.o: ../Core/Inc/FreeRTOSConfig.h
+cantrans\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+cantrans\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+cantrans\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+cantrans\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+cantrans\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+cantrans\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
