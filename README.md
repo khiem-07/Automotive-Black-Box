@@ -47,7 +47,7 @@ graph TD;
     A --> D(Task 3: Data Logging);
     
     %% Luồng Task 1 (Xử lý chính & Cứu hộ)
-    B -->|Đọc/Gửi| E[CAN Bus];
+    B -->|Đọc| E[CAN Bus];
     B -->|Phát hiện tai nạn| F{Crash?};
     F -- Yes --> G[Module SIM];
     G -->|Gửi SMS/Call| G1((SOS));
@@ -91,4 +91,4 @@ Khi cấp nguồn, quy trình mô phỏng sẽ diễn ra như sau:
 * **Xử lý tai nạn:**
     * Sau **3 giây** phát hiện va chạm, hệ thống xác nhận tai nạn.
     * Module SIM thực hiện: **Gửi SMS cảnh báo** -> **Gọi điện khẩn cấp**.
-* **Trạng thái hoạt động:** Đèn LED **PC13** trên mạch chính sẽ nhấp nháy liên tục, báo hiệu dữ liệu "Hộp đen" đang được ghi vào thẻ nhớ SD.
+* **Trạng thái hoạt động:** Đèn LED **PC13** trên mạch chính sẽ nhấp nháy liên tục, báo hiệu dữ liệu(đọc từ Can bus) đang được ghi vào thẻ nhớ SD.
